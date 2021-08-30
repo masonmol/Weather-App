@@ -1,0 +1,98 @@
+body {
+  background-color: ivory;
+}
+
+hr {
+  color: rgb(248, 101, 2);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.weather-app {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.date {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  color: rgb(240, 153, 95);
+}
+
+.time {
+  text-align: right;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  color: rgb(240, 153, 95);
+}
+
+.city-name {
+  color: rgb(247, 173, 62);
+  display: block;
+  padding: 20px;
+  margin: 0px 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
+  text-align: left;
+}
+.city-search {
+  border-radius: 20px;
+  padding: 5px 100px;
+  margin: 50px 5px 30px 30px;
+  text-align: center;
+}
+
+.search-button {
+  background-color: rgb(240, 153, 95);
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+}
+.search-button:hover {
+  background-color: #fff;
+  color: rgb(240, 153, 95);
+}
+.current-temp {
+  font-size: 45px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.real-temp {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.temp-details {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.week-emojis {
+  font-size: 40px;
+}
+.days-of-the-week {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.fa {
+  color: rgb(240, 153, 95);
+  font-size: 25px;
+  padding: 20px;
+}
+
+.fa:hover {
+  color: black;
+  cursor: pointer;
+}
