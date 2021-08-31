@@ -11,6 +11,13 @@ a {
   text-decoration: none;
 }
 
+footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  margin: auto;
+  text-align: center;
+}
+
 .weather-app {
   border: 1px solid black;
   padding: 15px;
@@ -95,4 +102,12 @@ a {
 .fa:hover {
   color: black;
   cursor: pointer;
+}
+
+.gitHub-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  margin: auto;
+  text-align: center;
+  text-decoration: underline;
 }
